@@ -494,6 +494,7 @@ button:hover {
     background-color: var(--main-blue); /* Синий фон */
     color: var(--light-gray); /* Светлый текст */
     text-align: center;
+    margin-top: -40px;
 }
 
 .intro {
@@ -566,6 +567,7 @@ button:hover {
     padding: 60px 20px;
     text-align: center;
     background-color: var(--main-blue);
+    margin-top: -50px;
 }
 
 .services-title {
@@ -600,14 +602,13 @@ button:hover {
 }
 
 .card-icon {
-    width: 50px;
-    height: 50px;
-    margin-bottom: 10px;
-    border-radius: 50px ;
+    font-size: 36px; /* Увеличиваем размер */
+    color: #ff008f; /* Глубокий синий */
+    margin-bottom: 10px; /* Добавляем небольшой отступ */
 }
 
 .card-title {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     color: #002fff;
     margin-bottom: 10px;
@@ -627,6 +628,7 @@ button:hover {
     color: var(--light-gray); /* Светлый текст */
     border-radius: 10px;
     text-align: center;
+    margin-top: -20px;
 }
 
 .text-center {
@@ -685,8 +687,8 @@ button:hover {
     padding: 10px;
     border: 2px solid var(--accent-pink); /* Розовая рамка */
     border-radius: 5px;
-    background-color: var(--light-gray);
-    color: var(--dark-gray);
+    background-color: hsl(0, 0%, 100%);
+    color: #070058;
     font-size: 16px;
     transition: border-color 0.3s ease;
 }
@@ -696,8 +698,8 @@ textarea {
     padding: 10px;
     border: 2px solid var(--accent-pink);
     border-radius: 5px;
-    background-color: var(--light-gray);
-    color: var(--dark-gray);
+    background-color: hsl(0, 0%, 100%);
+    color: #070058;
     font-size: 16px;
     margin-bottom: 15px;
     transition: border-color 0.3s ease;
@@ -719,7 +721,7 @@ input:focus {
 
 .form-consent label {
     font-size: 14px;
-    color: var(--light-gray);
+    color: #ff008f;
 }
 
 /* Кнопка */
@@ -1849,6 +1851,9 @@ label {
     font-size: 24px; /* Крупный заголовок */
     margin-bottom: 20px; /* Пространство ниже */
 }
+
+
+
 
 
 
